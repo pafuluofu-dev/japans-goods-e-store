@@ -28,33 +28,33 @@ Modern, responsive online storefront built with **React**, **React Router**, and
 📦Project structure
  ┣ 📂public
  ┃ ┣ 📜ai-robot.jpg
- ┃ ┣ 📜bicycle.png
- ┃ ┣ 📜books.png
- ┃ ┣ 📜bookshelf.png
- ┃ ┣ 📜clothing.png
- ┃ ┣ 📜comicBook.png
- ┃ ┣ 📜deskСhair.png
- ┃ ┣ 📜electronics.png
- ┃ ┣ 📜furniture.png
- ┃ ┣ 📜girl.jfif
- ┃ ┣ 📜headphones.png
- ┃ ┣ 📜jacket.png
- ┃ ┣ 📜jeans.png
- ┃ ┣ 📜lamp.png
- ┃ ┣ 📜laptop.png
+ ┃ ┣ 📜bicycle.jpg
+ ┃ ┣ 📜books.jpg
+ ┃ ┣ 📜bookshelf.jpg
+ ┃ ┣ 📜clothing.jpg
+ ┃ ┣ 📜comicBook.jpg
+ ┃ ┣ 📜deskChair.jpg
+ ┃ ┣ 📜electronics.jpg
+ ┃ ┣ 📜furniture.jpg
+ ┃ ┣ 📜headphones.jpg
+ ┃ ┣ 📜jacket.jpg
+ ┃ ┣ 📜jeans.jpg
+ ┃ ┣ 📜lamp.jpg
+ ┃ ┣ 📜laptop.jpg
  ┃ ┣ 📜logo.svg
- ┃ ┣ 📜magazine.png
- ┃ ┣ 📜monitor.png
- ┃ ┣ 📜novel.png
- ┃ ┣ 📜outdoor.png
- ┃ ┣ 📜rollerSkates.png
- ┃ ┣ 📜scooter.png
- ┃ ┣ 📜skateboard.png
- ┃ ┣ 📜smartphone.png
- ┃ ┣ 📜sneakers.png
- ┃ ┣ 📜t-shirt.png
- ┃ ┣ 📜table.png
- ┃ ┗ 📜textbook.png
+ ┃ ┣ 📜magazine.jpg
+ ┃ ┣ 📜monitor.jpg
+ ┃ ┣ 📜novel.jpg
+ ┃ ┣ 📜outdoor.jpg
+ ┃ ┣ 📜photo-credits.txt
+ ┃ ┣ 📜rollerSkates.jpg
+ ┃ ┣ 📜scooter.jpg
+ ┃ ┣ 📜skateboard.jpg
+ ┃ ┣ 📜smartphone.jpg
+ ┃ ┣ 📜sneakers.jpg
+ ┃ ┣ 📜t-shirt.jpg
+ ┃ ┣ 📜table.jpg
+ ┃ ┗ 📜textbook.jpg
  ┣ 📂src
  ┃ ┣ 📂components
  ┃ ┃ ┣ 📂Footer
@@ -167,7 +167,7 @@ Modern, responsive online storefront built with **React**, **React Router**, and
 - **categories** – `{ id, name, img }`
 - **products** – `{ id, categoryId, name, price, img, description, rating, inStock }`
 
-All images are stored in the `public/` folder and referenced by path (e.g., `/laptop.png`).
+All images are stored in the `public/` folder and referenced by path (e.g., `/laptop.jpg`). Product and category photos come from [Unsplash](https://unsplash.com/license); the photographers are listed in `public/photo-credits.txt`.
 
 ## 🎨 Styling Approach
 
